@@ -4,13 +4,13 @@
 <widget xmlns     	= "http://www.w3.org/ns/widgets"
         xmlns:gap 	= "http://phonegap.com/ns/1.0"
         id        	= "com.rickmitchell.splash"
-		versionCode = "1"
+        versionCode = "1"
         version   	= "1.0.0">
 
-    <name>Splash and Icon</name>
+    <name>Chinchillas</name>
 
     <description>
-        Extends a simple mobile app with a splash screen and with an icon and with some additional jQuery page features
+        Learning about Chinchillas!
     </description>
 
     <author href="http:www.ricksphp.com/mobile" email="rmitchell@framinghame.edu">
@@ -22,8 +22,8 @@
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
-	
-	<preference name="permissions"                value="none"/>
+
+    <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="3.6.3" />          <!-- all: current version of PhoneGap -->
@@ -86,11 +86,11 @@
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
-	<!-- Define ap defalut splash screen for each platform. -->
-    <gap:splash src="images/splash.png" /> 
-	 
-	<!-- Define app splash screen for each platform. -->
-	
+    <!-- Define ap defalut splash screen for each platform. -->
+    <gap:splash src="images/splash.png" />
+
+    <!-- Define app splash screen for each platform. -->
+
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
